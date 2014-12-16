@@ -1,0 +1,12 @@
+@Autowired --> perform a dependency check
+
+@Repository --> a bean
+
+
+
+In spring boot, if we place application.java just under root package, then we if we use @componentScan, we don't need to add the classpath into.
+All of application components (@Component, @Service, @Repository, @Controller)
+
+@Bean --> indicates that a method produces a bean that to be managed by Spring container.
+
+
